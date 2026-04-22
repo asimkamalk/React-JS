@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import JSXRules from "./components/JSXRules";
 import Expressions from "./components/Expressions";
 import ProductInfo from "./components/ProductInfo";
+import List from "./components/List";
 
 const App = () => {
   return (
@@ -21,6 +22,10 @@ const App = () => {
       <h2>Product Component</h2>
       <ProductInfo />
       <h2>End of Product Component</h2>
+      <hr />
+      <h2>List using map method</h2>
+      <List />
+      <h2>End of List using map method</h2>
       <hr />
       <MainContent />
       <Footer />
