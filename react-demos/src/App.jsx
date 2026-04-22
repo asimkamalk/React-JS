@@ -5,6 +5,7 @@ import JSXRules from "./components/JSXRules";
 import Expressions from "./components/Expressions";
 import ProductInfo from "./components/ProductInfo";
 import List from "./components/List";
+import ProductListMap from "./components/ProductListMap";
 
 const App = () => {
   return (
@@ -26,6 +27,10 @@ const App = () => {
       <h2>List using map method</h2>
       <List />
       <h2>End of List using map method</h2>
+      <hr />
+      <h2>Product List using map method</h2>
+      <ProductListMap />
+      <h2>End of Product List using map method</h2>
       <hr />
       <MainContent />
       <Footer />
