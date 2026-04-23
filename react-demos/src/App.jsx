@@ -8,6 +8,7 @@ import List from "./components/List";
 import ProductListMap from "./components/ProductListMap";
 import PersonProps from "./components/PersonProps";
 import ProductProps from "./components/ProductProps";
+import CardChildren from "./components/CardChildren";
 
 const App = () => {
   return (
@@ -41,6 +42,21 @@ const App = () => {
       <h2>Start of Product Props</h2>
       <ProductProps product="Iphone" price={1200} />
       <h2>End of Product Props</h2>
+
+      <hr />
+      <h2>Start of Card Children</h2>
+      <CardChildren>
+        <h1>Card 1</h1>
+        <p>This is the description of card 1</p>
+      </CardChildren>
+
+      <CardChildren>
+        <h1>Card 2</h1>
+        <p>This is the description of card 2</p>
+      </CardChildren>
+      <h2>End of Start of Card Children</h2>
+      <hr />
+
       <MainContent />
       <Footer />
     </>
