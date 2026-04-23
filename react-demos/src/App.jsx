@@ -6,6 +6,8 @@ import Expressions from "./components/Expressions";
 import ProductInfo from "./components/ProductInfo";
 import List from "./components/List";
 import ProductListMap from "./components/ProductListMap";
+import PersonProps from "./components/PersonProps";
+import ProductProps from "./components/ProductProps";
 
 const App = () => {
   return (
@@ -32,6 +34,13 @@ const App = () => {
       <ProductListMap />
       <h2>End of Product List using map method</h2>
       <hr />
+      <h2>Start of Person Props</h2>
+      <PersonProps name="Asim Kamal" age={23} />
+      <h2>End of Start of Person Props</h2>
+      <hr />
+      <h2>Start of Product Props</h2>
+      <ProductProps product="Iphone" price={1200} />
+      <h2>End of Product Props</h2>
       <MainContent />
       <Footer />
     </>
