@@ -12,11 +12,15 @@ import CardChildren from "./components/CardChildren";
 import Weather from "./components/Weather";
 import UserStatus from "./components/UserStatus";
 import GreetingsTernary from "./components/GreetingsTernary";
+import StyledCards from "./components/StyledCards";
+import ProfileCard from "./components/ProfileCard";
+import IconComponent from "./components/IconComponent";
 
 const App = () => {
   return (
     <>
-      <Header />
+      {/* To see the result uncomment the code below */}
+      {/* <Header />
       <hr />
       <h2>JSX rules</h2>
       <JSXRules />
@@ -72,7 +76,11 @@ const App = () => {
       <h2>Greeting Condiontional Rendering Ternary </h2>
       <hr />
       <MainContent />
-      <Footer />
+      <Footer /> */}
+
+      <StyledCards />
+      <ProfileCard />
+      <IconComponent />
     </>
   );
 };
