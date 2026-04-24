@@ -1,13 +1,11 @@
 import { FaDownload } from "react-icons/fa6";
 
 const IconComponent = () => {
-  const iconStyle = {
-    color: "black",
-    fontSize: "50px",
-    margin: "20px",
-  };
-
-  return <FaDownload style={iconStyle} />;
+  return (
+    <FaDownload
+      style={{ fontSize: "30px", color: "gold", marginTop: "10px" }}
+    />
+  );
 };
 
 export default IconComponent;
