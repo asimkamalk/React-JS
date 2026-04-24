@@ -15,7 +15,9 @@ import GreetingsTernary from "./components/GreetingsTernary";
 import StyledCards from "./components/StyledCards";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
-
+import Event from "./components/Event";
+import Copy from "./Copy";
+import Move from "./components/Move";
 const App = () => {
   return (
     <>
@@ -81,6 +83,9 @@ const App = () => {
       <StyledCards />
       <ProfileCard />
       <IconComponent />
+      <Event />
+      <Copy />
+      <Move />
     </>
   );
 };
