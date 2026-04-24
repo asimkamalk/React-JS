@@ -9,6 +9,9 @@ import ProductListMap from "./components/ProductListMap";
 import PersonProps from "./components/PersonProps";
 import ProductProps from "./components/ProductProps";
 import CardChildren from "./components/CardChildren";
+import Weather from "./components/Weather";
+import UserStatus from "./components/UserStatus";
+import GreetingsTernary from "./components/GreetingsTernary";
 
 const App = () => {
   return (
@@ -56,7 +59,18 @@ const App = () => {
       </CardChildren>
       <h2>End of Start of Card Children</h2>
       <hr />
-
+      <h2>Weather Condiontional Rendering if-else</h2>
+      <Weather />
+      <h2>End of Weather Condiontional Rendering if-else</h2>
+      <hr />
+      <h2>User Status Condiontional Rendering if-else</h2>
+      <UserStatus loggedIn={true} isAdmin={false} />
+      <h2>End of User Status Condiontional Rendering if-else</h2>
+      <hr />
+      <h2>Greeting Condiontional Rendering Ternary </h2>
+      <GreetingsTernary timeOfDay={"morning"} />
+      <h2>Greeting Condiontional Rendering Ternary </h2>
+      <hr />
       <MainContent />
       <Footer />
     </>
