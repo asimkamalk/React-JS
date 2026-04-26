@@ -18,6 +18,10 @@ import IconComponent from "./components/IconComponent";
 import Event from "./components/Event";
 import Copy from "./Copy";
 import Move from "./components/Move";
+import UseState from "./components/UseState";
+import UseStateInArray from "./components/UseStateInArray";
+import UseStateWithObjects from "./components/UseStateWithObjects";
+
 const App = () => {
   return (
     <>
@@ -80,12 +84,17 @@ const App = () => {
       <MainContent />
       <Footer /> */}
 
-      <StyledCards />
+      {/* To see the result uncomment the code below */}
+
+      {/* <StyledCards />
       <ProfileCard />
       <IconComponent />
       <Event />
       <Copy />
-      <Move />
+      <Move /> */}
+      <UseState />
+      <UseStateInArray />
+      <UseStateWithObjects />
     </>
   );
 };
