@@ -21,6 +21,12 @@ import Move from "./components/Move";
 import UseState from "./components/UseState";
 import UseStateInArray from "./components/UseStateInArray";
 import UseStateWithObjects from "./components/UseStateWithObjects";
+import UseStateWithArrayOfObject from "./components/UseStateWithArrayOfObject";
+import SharingComponentMain from "./components/SharingComponentMain";
+import SharingComponentOne from "./components/SharingComponentOne";
+import SharingComponentTwo from "./components/SharingComponentTwo";
+import UseStateWithFunctions from "./components/UseStateWithFunctions";
+import UseStateRandomNumber from "./components/UseStateRandomNumber";
 
 const App = () => {
   return (
@@ -95,6 +101,11 @@ const App = () => {
       <UseState />
       <UseStateInArray />
       <UseStateWithObjects />
+      <UseStateWithArrayOfObject />
+      <br />
+      <SharingComponentMain />
+      <UseStateWithFunctions />
+      <UseStateRandomNumber />
     </>
   );
 };
