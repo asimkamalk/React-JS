@@ -27,6 +27,7 @@ import SharingComponentOne from "./components/SharingComponentOne";
 import SharingComponentTwo from "./components/SharingComponentTwo";
 import UseStateWithFunctions from "./components/UseStateWithFunctions";
 import UseStateRandomNumber from "./components/UseStateRandomNumber";
+import TodoList from "./components/TodoList";
 
 const App = () => {
   return (
@@ -106,6 +107,9 @@ const App = () => {
       <SharingComponentMain />
       <UseStateWithFunctions />
       <UseStateRandomNumber />
+      <hr />
+      {/* Todo List Using UseState */}
+      <TodoList />
     </>
   );
 };
