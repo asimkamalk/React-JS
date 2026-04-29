@@ -1,6 +1,7 @@
 import SimpleForm from "./SimpleForm";
 import MultiInputForm from "./MultiInputForm";
 import AdvanceForm from "./AdvanceForm";
+import UncontrolledForm from "./uncontrolledForm";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <MultiInputForm />
       <br />
       <AdvanceForm />
+      <UncontrolledForm />
     </>
   );
 }
