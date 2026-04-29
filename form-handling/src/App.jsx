@@ -2,6 +2,7 @@ import SimpleForm from "./SimpleForm";
 import MultiInputForm from "./MultiInputForm";
 import AdvanceForm from "./AdvanceForm";
 import UncontrolledForm from "./uncontrolledForm";
+import BasicFormValidation from "./BasicFormValidation";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <br />
       <AdvanceForm />
       <UncontrolledForm />
+      <BasicFormValidation />
     </>
   );
 }
