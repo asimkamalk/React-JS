@@ -12,7 +12,7 @@ const BasicFormValidation = () => {
       setError("Both fields are required!");
     } else {
       setError("");
-      console.log(`Form Submitted : ${{ name }} ${{ email }}`);
+      console.log(`Form Submitted: \n Name : ${name} \n Email : ${email}`);
       alert("Form Submitted Sucessfully!");
     }
   };
